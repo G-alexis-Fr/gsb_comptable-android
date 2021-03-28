@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.suividevosfrais"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:7:5-38:19
+14        android:allowBackup="true"
+14-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] C:\Users\Alexis\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:fullBackupContent="@xml/my_backup_rules"
+18-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:10:9-57
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:15:9-40
+25        android:usesCleartextTraffic="true" >
+25-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:8:9-44
+26        <activity android:name="fr.cned.emdsgil.suividevosfrais.ConnexionActivity" />
+26-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:16:9-64
+26-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:16:19-52
+27        <activity android:name="fr.cned.emdsgil.suividevosfrais.TotalRecapActivity" />
+27-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:17:9-56
+27-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:17:19-53
+28        <activity android:name="fr.cned.emdsgil.suividevosfrais.MainActivity" >
+28-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:18:9-31:20
+28-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:18:19-47
+29            <intent-filter>
+29-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:19:13-30:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:20:17-69
+30-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:20:25-66
+31                <action android:name="android.intent.action.VIEW" />
+31-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:21:17-69
+31-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:21:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:23:17-77
+33-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:23:27-74
+34                <category android:name="android.intent.category.BROWSABLE" />
+34-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:24:17-78
+34-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:24:27-75
+35
+36                <data
+36-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:26:17-29:45
+37                    android:host="recipe-app.com"
+37-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:27:21-50
+38                    android:pathPrefix="/recipes"
+38-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:28:21-50
+39                    android:scheme="http" />
+39-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:29:21-42
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="fr.cned.emdsgil.suividevosfrais.HfActivity" />
+42-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:32:9-48
+42-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:32:19-45
+43        <activity android:name="fr.cned.emdsgil.suividevosfrais.HfRecapActivity" />
+43-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:33:9-53
+43-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:33:19-50
+44        <activity android:name="fr.cned.emdsgil.suividevosfrais.KmActivity" />
+44-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:34:9-48
+44-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:34:19-45
+45        <activity android:name="fr.cned.emdsgil.suividevosfrais.NuitActivity" />
+45-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:35:9-50
+45-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:35:19-47
+46        <activity android:name="fr.cned.emdsgil.suividevosfrais.EtapeActivity" />
+46-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:36:9-51
+46-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:36:19-48
+47        <activity android:name="fr.cned.emdsgil.suividevosfrais.RepasActivity" />
+47-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:37:9-51
+47-->C:\Users\Alexis\Documents\BTS SIO\2ieme Annee\Matieres\PPE\Projets\GSB-AppliAndroid\app\src\main\AndroidManifest.xml:37:19-48
+48    </application>
+49
+50</manifest>
