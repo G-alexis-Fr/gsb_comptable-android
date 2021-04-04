@@ -4,6 +4,7 @@
 
 Accès à mon porfolio : https://g-alexis.com/portfolio
 
+Accès à mon rapport de projet Android : https://github.com/G-alexis-Fr/gsb_comptable-android/blob/master/GSBComptableProjet-Android.pdf
 
 Vous retrouverez la documentation pour ce projet à cette adresse : http://gsbdocumentation-android.g-alexis.com
 
